@@ -1,0 +1,669 @@
+body {
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin-top: 120px
+
+}
+
+h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+    color: grey;
+}
+
+
+#barra-alto {
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 10;
+    background-color: white;
+    border-bottom: solid;
+    border-color: rgba(124, 124, 124, 0.075);
+    box-shadow: 0px 10px 20px -25px;
+    
+}
+
+#barra-alto img {
+
+    height: 100%;
+    margin-left: 3em;
+    margin-right: 40em;
+
+}
+
+#barra-alto ion-icon {
+
+    font-size: 22px;
+    color:rgb(116, 116, 116)
+
+}
+
+.icone ion-icon {
+
+    margin: 0.5em;
+
+}
+
+.icone ion-icon:hover {
+
+    transform: scale(1.3);
+
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.membership {
+
+    border-radius: 20px;
+    height: 30px;
+    border-color: rgb(124, 124, 124);
+    border-style: solid;
+    background-color: white;
+    margin-left: 2em;
+    width: 160px;
+    border-width: 1.5px;
+
+}
+
+.membership {
+
+    transform: scale(1.3);
+
+}
+
+.profilo {
+
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    border-color: rgba(124, 124, 124, 0);
+    background-color: rgb(255, 72, 0);
+    border-width: 1.5px;
+    font-size: 18px;
+    margin-left: 1.5em;
+
+}
+
+.profilo a {
+
+    color: white;
+}
+
+.barra-icone {
+
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+
+}
+
+.follow-recommended {
+
+    margin-top: 3em;
+    margin-left: 3.5em;
+
+}
+
+.follow-recommended button {
+
+    margin: 1em;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color:  rgb(124, 124, 124);
+    border-bottom: solid;
+    border-width: 2px;
+    background-color: white;
+    border-color:  rgba(124, 124, 124, 0.303);
+    padding-bottom: 1em;
+    z-index: 5;
+    position: relative;
+
+}
+
+
+.follow-recommended button:hover {
+
+    border-color: black;
+
+}
+
+.follow-recommended a:hover {
+
+    color: black;
+
+}
+
+hr {
+
+    border-width: 1px;
+    border: solid;
+    border-color:  rgba(74, 74, 74, 0.303);
+    position: absolute;
+    width: 53em;
+    top: 157px;
+    margin-left: 4.5em;
+
+}
+
+.articoli {
+
+    margin-left: 4em;
+    margin-top: 1em;
+    align-items: center;
+    display: inline-block;
+}
+
+.articoli ion-icon {
+
+    font-size: 20px;
+    margin-right: 0.5em;
+
+}
+
+span {
+
+    color: grey;
+
+}
+
+.articolo-titolo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.articolo-titolo img {
+
+    width: 18px;
+    border-radius: 5px;
+
+}
+
+.articolo-titolo h5 {
+
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+
+.titolo-prodotto h2{
+
+    margin-top: 0em;
+
+}
+
+.descrizione p {
+
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+
+}
+
+.infos {
+
+    display: flex;
+    align-items: center;
+    width: 541.891px
+
+}
+
+.infos p {
+
+    font-size: 13px;
+    color: rgb(124, 124, 124);
+
+}
+.infos button {
+
+    border-radius: 10px;
+    border-style: none;
+    height: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: rgb(124, 124, 124);
+
+}
+ 
+.book-elli-icon {
+
+    margin-left: 11em;
+
+}
+
+.more-infos img {
+
+    float:right;
+
+}
+
+.main-image {
+
+    width:280px;
+    margin-left: 1.7em;
+
+}
+
+.main-image4 {
+
+    margin-left: 1em;
+
+}
+
+.book-elli-icon ion-icon:hover {
+
+    transform: scale(1.3);
+
+}
+
+.book-elli-icon2 ion-icon:hover {
+
+    transform: scale(1.3);
+
+}
+
+.book-elli-icon2 {
+
+    margin-left: 2em;
+
+}
+
+.book-elli-icon4 {
+
+    margin-left: 6.4em;
+
+}
+
+.react:hover {
+
+    color: black;
+    background-color: rgba(128, 128, 128, 0.30);
+    
+}
+
+
+.secondo-blocco {
+
+    position: absolute;
+    min-height: 100%;
+    width: 30%;
+    border: solid;
+    border-color: rgba(67, 67, 67, 0.153);
+    right: 1.5em;
+    top: 4.5em;
+    border-top: 0;
+    border-right: 0; 
+    border-bottom: 0;
+    
+}
+
+.secondo-blocco ion-icon {
+
+    font-size: 25px;
+    color: rgb(124, 124, 124);
+    position: absolute;
+    margin-left: 0.7em;
+
+}
+
+.due-logo {
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    top: 1em;
+    left: 9em;
+    
+
+}
+
+.secondo-blocco p {
+
+    vertical-align: middle; 
+    text-align: center; 
+    font-weight: 200;
+    position: inherit;
+    top:4em;
+    left: 5em;
+
+}
+
+.terzo-blocco {
+
+    position: absolute;
+    min-height: 40%;
+    width: 30%;
+    right: 1em;
+    top: 25em;
+}
+
+.quarto-blocco {
+
+    position: absolute;
+    min-height: 60%;
+    width: 30%;
+    right: 1em;
+    top: 42em;
+    
+}
+
+
+.medium {
+    
+    width: 50px;
+
+}
+
+.twitter {
+
+    width: 35px;
+    margin-left: 2em;
+
+}
+
+.connect {
+
+    display: flex;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    left: 8em;
+    top: 1em
+
+}
+
+.button-connect {
+
+    position: absolute;
+    top:8em;
+
+}
+
+.maybe {
+
+    width: 100px;
+    position: absolute;
+    top: 12em;
+    right: 10.8em;
+
+}
+
+.second-hr {
+    
+    width: 20em;
+    position: absolute;
+    top: 19em;
+    right:4em;
+    border-width: 0.5px;
+    border-style: solid;
+
+}
+
+.topic {
+    
+    background-color: white;
+    position: absolute;
+    left: 2em;    
+
+}
+
+.topic h4 {
+
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.bottoni {
+
+    position: absolute;
+    flex-wrap: wrap;
+    top: 4em;
+    left: 2em;
+
+}
+
+.bottoni button {
+
+    border-radius: 20px;
+    border-width: 0px;
+    margin: 0.2em;
+    height: 30px;
+    width: fit-content; 
+
+}
+
+.all-profile-users {
+
+    margin-top: 4em;
+
+}
+
+.profile-user {
+
+    display: flex;
+    height: 90px;
+    width: 99%;
+    margin-top: 1em;
+    margin-left: 10px;
+    margin-bottom: 0;
+
+}
+
+.profile-user img {
+
+    max-height: 50px;
+    margin-top: 20px;
+
+}
+
+.profile-user-description {
+
+    height: 90px;
+    width: 200px;
+    margin-right: 50px;
+
+}
+
+.profile-user-description p {
+
+    color:  rgba(97, 97, 97, 0.747);
+    font-size: 12px;
+    margin-top: 0em;
+    margin-left: 10px;
+    
+}
+
+.profile-user-description h4 {
+
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+
+}
+
+.follow-user {
+    
+    border-radius: 30px;
+    height: 35px;
+    border-color: rgb(124, 124, 124);
+    border-style: solid;
+    background-color: white;
+    margin-top: 1.8em;
+    width: 90px;
+    border-width: 1px;
+    font-size: 15px;
+    margin-left: 1em;
+
+}
+
+.follow-user:hover {
+
+    transform: scale(1.3);
+
+}
+
+.profile-user-description2 h4{
+
+    margin-top: 0.5em;
+
+}
+
+.topic2 {
+
+    margin-top: 2em;
+
+}
+
+.recently-saved-title {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.recently-saved-title img {
+
+    width: 18px;
+    border-radius: 5px;
+
+}
+
+.recently-saved-title h5 {
+
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+
+.recently-saved-content {
+
+    margin-top: 5em;
+    margin-left: 2em;
+
+}
+
+.recently-saved-title-2 h3{
+
+    margin-top: 0;
+    margin-bottom: -0.5em;
+
+}
+
+.recently-saved-content p {
+
+    font-size: 13px;
+    color: rgb(124, 124, 124);
+
+}
+
+.recently-saved-content button {
+
+    background-color: white;
+    border: none;
+
+}
+
+.profile-message {
+
+    width: 400px;
+    height: 90px;
+
+}
+
+.logo-and-name {
+
+    margin-left: 1.5em;
+    width: 150px;
+    height: 25px;
+    display: flex;
+
+}
+
+.logo-and-name img {
+
+    height: 100%;
+
+}
+
+.logo-and-name h5 {
+
+    margin-top: 0.4em;
+    padding-left: 1em;
+
+}
+
+.title-and-date {
+
+    width: 60px;
+    height: 25px;
+    margin-left: 1.8em;
+    margin-top: 0.3em;
+
+}
+
+.title-and-date h3 {
+
+    margin-top: 0.1em;
+
+}
+
+.profile-message p {
+
+    margin-left: 2.5em;
+    font-size: 12px;
+    color: grey;
+}
+
+.see-all {
+
+    margin-left: 2.3em;
+    margin-top: 1em;
+    font-size: 13px;
+
+}
+
+.see-all a {
+
+    color: green;
+
+}
+
+footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    font-size: 13px;
+   
+}
+
+footer button {
+
+    border: none;
+    width: 65px;  
+    margin: 0.5em;  
+    background-color: white;
+    color: rgb(71, 71, 71);
+
+}
